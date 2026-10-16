@@ -1,4 +1,4 @@
-# Service Mada 2.0 — version finale préparée
+# Service Locale Mada
 
 Cette archive contient le projet corrigé sans `node_modules` ni `dist`.
 
