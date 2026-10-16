@@ -1,0 +1,67 @@
+.page-container {
+    padding: 50px 7%;
+}
+
+.page-container h1 {
+    margin-bottom: 10px;
+}
+
+.page-container > p {
+    color: #666;
+    margin-bottom: 30px;
+}
+
+/* Conteneur du tableau */
+.table-container {
+    width: 100%;
+    overflow-x: auto;
+}
+
+/* Tableau */
+.table-container table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+
+    border-radius: 12px;
+    overflow: hidden;
+
+    box-shadow:
+        0 3px 15px rgba(0,0,0,0.08);
+}
+
+/* En-tête */
+.table-container th {
+    background: linear-gradient(
+        135deg,
+        #667eea,
+        #764ba2
+    );
+
+    color: white;
+    padding: 15px;
+    text-align: left;
+}
+
+/* Cellules */
+.table-container td {
+    padding: 15px;
+    border-bottom: 1px solid #eee;
+}
+
+/* Dernière ligne */
+.table-container tr:last-child td {
+    border-bottom: none;
+}
+
+/* Effet au survol */
+.table-container tbody tr:hover {
+    background: #f7f7fb;
+}
+
+/* Statut */
+.table-container .status {
+    padding: 7px 12px;
+    border-radius: 20px;
+    background: #eee;
+}

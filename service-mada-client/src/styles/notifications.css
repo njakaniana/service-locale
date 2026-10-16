@@ -1,0 +1,19 @@
+.notifications-list {
+    max-width: 800px;
+    margin-top: 30px;
+}
+.notification-card {
+    background: white;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    box-shadow:0 3px 10px rgba(0,0,0,0.06);
+    align-items: center;
+}
+.notification-card h3 {
+    margin-top: 0;
+    align-items: center;
+}
+.notification-card small {
+    color: #777;
+}
